@@ -15,8 +15,8 @@ function App() {
     <div >  
       <AppNavBar/>
       <BasicForm/>   
-      <UsersApp></UsersApp>
-       
+      
+      <UsersApp/> 
       
     </div>
      

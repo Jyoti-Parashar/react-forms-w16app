@@ -3,6 +3,7 @@ import { Button, Card } from "react-bootstrap";
 import { FC } from "react";
 import { User } from "../../type";
 
+
 interface UsersCardProps {
   user: User;
 }
@@ -21,6 +22,8 @@ const UsersCard: FC<UsersCardProps> = ({ user }) => {
           <strong>Bio:</strong> {user.bio}
         </Card.Text>
         <Button variant="primary">Contact</Button>
+        <Button variant="primary">Delete</Button>
+        
       </Card.Body>
     </Card>
   );
